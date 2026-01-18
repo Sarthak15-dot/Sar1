@@ -1,3 +1,8 @@
+git init
+git add .
+git commit -m "Initial commit: SAR-1 AI Chatbot"
+git remote add origin https://github.com/YOUR_USERNAME/sar-1-chatbot.git
+git push -u origin main
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Loader2 } from 'lucide-react';
 
